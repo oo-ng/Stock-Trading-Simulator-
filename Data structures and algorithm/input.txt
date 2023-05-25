@@ -1,0 +1,33 @@
+put 2 9
+print_stats_tree
+put 9 -2
+print_stats_tree
+put 3 5
+print_stats_tree
+put 1 2
+print_stats_tree
+put 2 10
+print_stats_tree
+put 7 -4
+size
+print_stats_tree
+erase 3
+print_stats_tree
+erase 7
+print_stats_tree
+size
+put 3 1
+print_stats_tree
+put 7 -10
+size
+print_stats_tree
+print
+print_key_stats 7
+find 2
+find 5
+print_key_stats 4
+print
+print_stats
+print_tree
+
+
