@@ -1,5 +1,5 @@
 /*
- *Author: Luis E. Ortiz
+ *Author:Onaopemipo Olagoke
  *Purpose: Code for simple stock market trading simulator using priority queues based on heaps and
  a hash map to keep track of trade transaction records
 */
@@ -495,41 +495,7 @@ CompleteBT::add(Elem* e) {
 }
 
 
-/*##########################################################################
- 1. try to use existed function such as removeNode(), instead of creating more :)
 
-
- ###########################################################################*/
- //Elem* CompleteBT::remove() {
- //    if (!lastNode) {
- //        return nullptr;
- //    }
- //
- //    Elem* elem = lastNode->elem;
- //    Node* parent = lastNode->parent;
- //
- //    if (lastNode == root) {
- //        delete lastNode;
- //        lastNode = root = nullptr;
- //    }
- //    else if (parent->right == lastNode) {
- //        delete lastNode;
- //        parent->right = nullptr;
- //        lastNode = parent->left;
- //      
- //    }
- //    else {
- //        Node* x = getParentOfNewLastNode();
- //        delete lastNode;
- //        lastNode = x;
- //        parent->left = nullptr;
- //        // lastNode = parent->right; // when you add a new node, left first then right. When you delete a node, delete right first then left
- //    }
- //
- //  
- //    n--;
- //    return elem;
- //}
 
 Elem*
 CompleteBT::remove() {
@@ -552,12 +518,6 @@ CompleteBT::remove() {
     else return NULL;
 
 }
-
-
-
-
-
-
 
 // Heap data-structure implementation of a priority queue ADT
 class Heap : public CompleteBT
